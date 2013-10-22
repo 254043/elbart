@@ -1,0 +1,28 @@
+
+1. przypadek u¿ycia | normalny przez internet
+--------------------|
+Wymagania wstêpne: dostêp do internetu, odpowiednia iloœæ pieniêdzy na koncie, dostêp do konta bankowego przez internet, obs³uga p³atnoœci online przez bank
+
+Zainteresowana osoba (kibic) chce kupiæ bilet przez internet za pomoc¹ komputera.
+W tym celu wybiera interesuj¹ce go spotkanie sportowe, nastêpnie wybiera miejsce w konkretnym sektorze (standard albo vip) i typ biletu (normalny, rodzinny grupowy). W tym momencie system rezerwuje to miejsce na 15 minut, do czasu zap³aty za bilet. Po wykonaniu tych czynnoœci kibic musi przejœæ do p³atnoœci online i zap³aciæ za bilet. Jeœli wykona p³atnoœæ w czasie 15 minut i w czasie tych 15 minut dojdzie informacja z banku do systemu sprzeda¿y, ¿e zamówienie
+zosta³o op³acone - kibic dostaje potwierdzenie zakupu biletu i od tej chwili jest ju¿ pewne, ¿e te miejsce bêdzie jego. Kibic kupi³ sobie miejsce na wybrane wydarzenie sportowe.
+
+
+ 
+2. przypadek u¿ycia | normalny w kasie biletowej
+--------------------|
+Wymagania wstêpne: odpowiednia iloœæ gotówki b¹dŸ œrodków na karcie debetowej/kredytowej.
+
+Kibic chce kupiæ normalny bilet w sektorze standard. Podchodzi zatem do kasy i prosi biletera o jedno miejsce w sektorze standard. Bileter sprawdza czy w sektorze standard jest dostêpne 1 miejsce -> jest wiêc bileter dokonuje wstêpnej rezerwacji na 15 minut w systemie sprzeda¿y (zintegrowanym z systemem internetowym) i oczekuje p³atnoœci od kibica. Podaje mu cenê biletu i pyta go o sposób p³atnoœci: gotówk¹ b¹dŸ kart¹ debetow¹/kredytow¹. Kibic odpowiada, ¿e chce zap³aciæ gotówk¹ wiêc bileter prosi o odpowiedni¹ kwotê. kibic podaje kwotê wy¿sz¹ ni¿ potrzebna i oczekuje wydania reszty. W tym przypadku jest problem z wydaniem reszty przez biletera, gdy¿ nie posiada on drobnych do wydania wiêc kupno biletu staje siê niemo¿liwe w tym przypadku. Zarezerwowany bilet zostaje zwolniony do puli przez biletera.
+
+
+3. przypadek u¿ycia | sprawdzenie dostêpnoœci miejsc w kasie
+--------------------|
+Wymagania wstêpne: brak
+
+Kibic chce dowiedzieæ siê czy s¹ dostêpne 3 miejsca w sektorze vip na konkretne wydarzenie sportowe. Podchodzi wiêc do kasy i pyta biletera o dostêpnoœæ miejsc. Bileter sprawdza w systemie sprzeda¿y czy s¹ dostêpne miejsca. W tym przypadku s¹ dostêpne wiêc bileter informuje kibica, ¿e s¹ dostêpne wiêc zdarzenie koñczy siê sukcesem.  
+
+4. przypadek u¿ycia | rozstrzyganie sporów odnoœnie zap³aty za bilet przez internet a brak informacji z systemu bankowego o powodzeniu
+--------------------|
+
+Kibic zap³aci³ za bilet przez internet lecz system bankowy nie wys³a³ sygna³u do systemu sprzeda¿y wobec czego po 15 minutach bilet wróci³ do puli biletów ogólnodostêpnych i powsta³ problem, gdy¿ kibic rzeczywiœcie bilet zamówi³ i op³aci³ go, a w systemie miejsce te widnieje jako dostêpne. W tym przypadku kibic kontaktuje siê z administratorem systemu, który sprawdza rzeczywiste wp³aty i rozstrzyga - czy miejsce te powinno zostaæ zajête czy kibic chce tylko wy³udziæ te miejsce. W tym przypadku kibic rzeczywiœcie zap³aci³ wiêc administrator zajmuje mu te miejsce, o ile kto inny go w tym czasie nie zaj¹³, aczkolwiek na takie przypadki system sprzeda¿y posiada bufor wolnych 10 miejsc wiêc spór zazwyczaj da siê rozstrzygn¹æ.
