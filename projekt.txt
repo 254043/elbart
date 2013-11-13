@@ -1,0 +1,4 @@
+Projekt grupy:
+
+Stworzenie programu-gry, w którym u¿ytkownik móg³by sam sobie zmieniaæ mapê i cele gry czyli samemu decydowaæ o przebiegu dalszej 
+gry oraz o wygl¹dzie tej¿e gry.
