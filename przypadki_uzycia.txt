@@ -1,0 +1,81 @@
+
+--| Przypadki u¿ycia:
+   ------------------
+1. wstawienie na mape obiektow
+2. usuniecie obiektu z mapy
+3. Edycja grafiki gotowych elementów do mapy.
+4. Ustawienie rozmiaru mapy (w pikselach).
+5. Tworzenie i rozmieszczenie NPC'ów na mapie
+6. Za³adowanie mapy do gry
+
+
+--| Opis przypadków u¿ycia:
+  -------------------------
+
+*Wstawienie na mape obiektow
+
+Podstawowy scenariusz sukcesu:
+
+1. U¿ytkownik wybiera z menu tworzenia obiektów opcjê "bohater"
+2. U¿ytkownik w polu o nazwie "ilosc" podaje liczbê tworzonych obiektów.
+3. U¿ytkownik klika w przycisk "Stwórz".
+4. Obiekty pojawiaj¹ siê na mapie (domyœlnie w lewym górnym rogu).
+
+Rozszerzenia:
+4a. Obiekt nie pojawia siê na mapie, poniewa¿ próbowano postawiæ bohatera na tych samych polach, gdzie stoi ju¿ inny bohater.
+ 4a1. U¿ytkownik musi przenieœæ obecnego bohatera w inne miejsce b¹dŸ ustawiæ pozycjê pocz¹tkow¹ nowotworzonego       bohatera w menu na inn¹ ni¿ domyœlna.
+
+
+*Usuniecie obiektu z mapy
+
+Podstawowy scenariusz sukcesu:
+
+1. U¿ytkownik klika na obiekt prawym przyciskiem myszy.
+2. Z rozwijanej listy wybiera opcjê "Usuñ obiekt".
+3. Obiekt zosta³ usuniêty z mapy. 
+
+
+*Edycja grafiki gotowych elementów do gry
+
+Podstawowy scenariusz sukcesu:
+
+1. U¿ytkownik wybiera z menu opcjê edycji elementów do gry.
+2. U¿ytkownik wybiera do jakiego rodzaju gry ma edytowaæ grafikê (platformowej lub z widokiem z góry).
+3. U¿ytkownik wybiera konkretny element, który zamierza edytowaæ.
+4. System otwiera okno edycji grafiki.
+5. U¿ytkownik po zmianach zatwierdza now¹ grafikê obiektu.
+6. U¿ytkownik klika w "Zapisz" i podaje nazwê nowej paczki tekstury.
+7. System zapisuje now¹ teksturê, któr¹ mo¿na wczytaæ podczas tworzenia nowej mapy.
+
+Rozszerzenia:
+6a. Podana nazwa paczki tekstury ju¿ istnieje.
+  6a1. System zadaje pytanie, czy nadpisaæ star¹ teksturê lub wprowadziæ now¹ nazwê.
+
+
+*Tworzenie i rozmieszczenie NPC'ów na mapie
+
+Podstawowy scenariusz sukcesu:
+
+1. U¿ytkownik wybiera klasê tworzonej postaci (np. mag, wojownik, paladyn itd.)
+2. U¿ytkownik ustawia dostêpne dla danej klasy postaci atrybuty, takie jak wyglšd, parametry poszczególnych umiejêtno?ci,  broñ i inne przedmioty dostêpne na poczštku gry dla danej postaci itd.
+3. U¯ytkownik powtarza powy¿sze czynno?ci dla ka¿dego tworzonego NPC'a.
+4. U¿ytkownik ustala, jakie bêdš relacje miêdzy stworzonymi postaciami na zasadzie "wróg/przyjaciel" oraz rozmieszcza je na mapie.
+
+Rozszerzenia:
+1a. U¿ytkownik ma limit na stworzenie postaci danej klasy. Nie mo¿e np. stworzyæ kolejnego maga, je?li wcze?niej wyczerpa³ limit dla tej klasy.
+3a. Mo¿liwa ilo?æ stworzonych postaci jest ograniczona. Liczba NPC'ów wystêpujšcych w przeciwnych sobie grupach musi byæ te¿ zblizona.
+
+
+*Za³adowanie mapy do gry
+
+Podstawowy scenariusz sukcesu:
+
+1. U¿ytkownik wybiera mapê z tych, które ukoñczy³ w edytorze.
+2. U¯ytkownik decyduje, do jakiego trybu rozgrywki mapa bêdzie przeznaczona (online, offline).
+3. U¿ytkownik zatwierdza dodanie mapy.
+
+Rozszerzenia:
+1a. Nie jest mo¿liwe dodanie mapy, która nie nadaje siê jeszcze do gry (np. jest na niej zbyt ma³o NPC'ów).
+
+
+
